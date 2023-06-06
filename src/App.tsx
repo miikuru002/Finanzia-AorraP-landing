@@ -1,8 +1,16 @@
 import { useState } from "react";
 import {
+	Conocenos,
+	ContactSection,
+	DownloadSection,
+	Footer,
+	HeroSection,
 	Navbar,
+	PlanesSection,
+	SupportSection,
 } from "./components";
 import "./App.css";
+import ServicesSection from "./components/ServicesSection";
 
 function App() {
 	//*ESTADO
@@ -17,6 +25,14 @@ function App() {
 	return (
 		<>
 			<Navbar isOpen={isOpen} toggle={toggle} />
+			<HeroSection />
+			<Conocenos />
+			<ServicesSection />
+			<PlanesSection />
+			<DownloadSection />
+			<SupportSection />
+			<ContactSection />
+			<Footer />
 		</>
 	);
 }

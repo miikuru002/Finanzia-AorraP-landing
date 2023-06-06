@@ -49,7 +49,7 @@ function SupportSection() {
 			</SupportFaqContainer>
 
 			{/* BOTON FLOTANTE */}
-			<SupportFlotingButton>Contactar con soporte</SupportFlotingButton>
+			{/* <SupportFlotingButton>Contactar con soporte</SupportFlotingButton> */}
 		</>
 	);
 }

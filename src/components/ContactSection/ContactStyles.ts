@@ -116,14 +116,3 @@ export const ContactButton = styled.a`
 		background: ${purple_kight};
 	}
 `;
-
-export const TextColor = styled.span`
-	color: #00df9a;
-`;
-
-export const ContactColumn = styled.div`
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 3rem;
-	margin-right: 3rem;
-`;
