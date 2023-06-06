@@ -5,7 +5,6 @@ import {
 	SupportFaqText,
 	SupportFaqTitle,
 	SupportFaqToggle,
-	SupportFlotingButton,
 	SupportTitle,
 } from "./SupportStyles";
 
