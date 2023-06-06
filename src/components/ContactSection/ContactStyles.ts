@@ -25,3 +25,10 @@ export const ContactWraper = styled.div`
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 `;
+
+export const ContactColumn = styled.div`
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+`;
