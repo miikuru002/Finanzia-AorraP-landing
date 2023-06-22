@@ -62,7 +62,7 @@ export const ContactP = styled.p`
 	color: ${purple_dark};
 `;
 
-export const InputWraper = styled.div`
+export const InputWraper = styled.form`
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -89,7 +89,7 @@ export const Input = styled.input`
 	}
 `;
 
-export const ContactButton = styled.a`
+export const ContactButton = styled.button`
 	padding-top: 0.75rem;
 	padding-bottom: 0.75rem;
 	padding-left: 1.5rem;

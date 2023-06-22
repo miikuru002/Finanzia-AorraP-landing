@@ -33,7 +33,11 @@ function DownloadSection() {
 								</Subtitle>
 								<BtnWrap>
 									{/* PLAY STORE */}
-									<DownloadStoreButton brand="play_store">
+									<DownloadStoreButton 
+										brand="play_store" 
+										href="https://www.figma.com/proto/qRtqZHHgJH4HvIJF5Ybcl3/TP-IHC?type=design&node-id=402-400&scaling=min-zoom&page-id=395%3A99&starting-point-node-id=402%3A400"
+										target="_blank"
+									>
 										<DownloadStoreButtonSubtitle>
 											Descargar en
 										</DownloadStoreButtonSubtitle>
@@ -43,7 +47,11 @@ function DownloadSection() {
 									</DownloadStoreButton>
 
 									{/* APP STORE */}
-									<DownloadStoreButton brand="app_store">
+									<DownloadStoreButton 
+										brand="app_store" 
+										href="https://www.figma.com/proto/yAOLEKlSymoCWs4mMTjbdh/TF-IHC---Finanzia-AorraP?type=design&node-id=60-403&scaling=scale-down&page-id=46%3A55&starting-point-node-id=60%3A403&show-proto-sidebar=1"
+										target="_blank"
+									>
 										<DownloadStoreButtonSubtitle>
 											Descargar en
 										</DownloadStoreButtonSubtitle>
