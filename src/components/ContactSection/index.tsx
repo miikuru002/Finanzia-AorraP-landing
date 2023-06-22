@@ -20,14 +20,20 @@ function ContactSection() {
 				</ContactColumn>
 
 				<ContactColumn2>
-					<InputWraper>
-						<Input type="email" placeholder="Ingrese su email" />
-						<ContactButton>Enviar</ContactButton>
+					<InputWraper
+						onSubmit={(e) => {
+							e.preventDefault();
+							alert(`✅ Información enviada a: ${(e.target as any).email.value}`);
+						}}
+					>
+						<Input
+							type="email"
+							placeholder="Ingrese su email"
+							required
+							name="email"
+						/>
+						<ContactButton type="submit">Enviar</ContactButton>
 					</InputWraper>
-					{/* <p>
-						We care bout the protection of your data. Read our{" "}
-						<TextColor>Privacy Policy.</TextColor>
-					</p> */}
 				</ContactColumn2>
 			</ContactWraper>
 		</ContactContainer>
