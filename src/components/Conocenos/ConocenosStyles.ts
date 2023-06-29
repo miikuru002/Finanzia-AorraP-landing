@@ -52,6 +52,16 @@ export const TextWrapper = styled.div`
 	/* padding-bottom: 60px; */
 `;
 
+export const VideoWrapper = styled.div`
+	max-width: 540px;
+	padding-top: 0;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Heading = styled.h1`
 	margin-bottom: 24px;
 	font-size: 48px;

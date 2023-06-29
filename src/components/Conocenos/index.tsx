@@ -7,6 +7,7 @@ import {
 	Subtitle,
 	Heading,
 	Column2,
+	VideoWrapper,
 } from "./ConocenosStyles";
 
 function Conocenos() {
@@ -24,9 +25,7 @@ function Conocenos() {
 									sociedad
 								</Subtitle>
 							</TextWrapper>
-						</Column1>
-
-						<Column2>
+							<br /> 
 							<TextWrapper>
 								<Heading>Nuestro sueño</Heading>
 								<Subtitle>
@@ -35,6 +34,22 @@ function Conocenos() {
 									eficientemente sus finanzas
 								</Subtitle>
 							</TextWrapper>
+							<br />
+						</Column1>
+
+						<Column2>
+							<VideoWrapper>
+								<iframe
+									src="https://www.youtube.com/embed/4IdTfld_01I"
+								></iframe>
+							</VideoWrapper>
+							<br /> 
+							<VideoWrapper>
+								<iframe
+									src="https://www.youtube.com/embed/Sk6eHoQqoZM"
+								></iframe>
+							</VideoWrapper>
+							<br />
 						</Column2>
 					</InfoRow>
 				</InfoWrapper>
